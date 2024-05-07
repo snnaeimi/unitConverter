@@ -1,0 +1,76 @@
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+}   
+
+.container{
+    margin: 0 auto;
+    width: 550px;
+    height: 729px;
+    font-family: inter;
+    background-color: #1F2937;
+}
+
+.headerPart{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+    
+}
+
+h1{
+    
+    font-size: 28px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#convertNum{
+    width: 117px;
+    height: 83px;
+    margin: 25px auto;
+    border: 1px solid #B295FF;
+    border-radius: 5px;
+    background-color: #6943FF;
+    color: white;
+    
+    font-size: 58px;
+    text-align: center;
+}
+
+.convert-btn{
+    width: 117px;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.resultPart{
+    background-color: #273549;
+    border: 1px solid white;
+    margin: 25px;
+    text-align: center;
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+    height: 80px;
+    padding-top: 31px;
+}
+
+/* the result part which is added in the JS */
+.resultText{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
